@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce API Platform",
+    "description": "Cutting-edge landing page design crafted for a technology company. ",
+    "imageUrl": "https://cdn.dribbble.com/userupload/15103421/file/original-8a62816249c8fac7c90b3f465ca0f40d.png?resize=1024x768&vertical=center",
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe",
+      "Figma",
+      "Tailwind"
+    ],
+    "category": "Web Development",
+    "status": "published",
+    "liveUrl": "https://dribbble.com/shots/26207453-Social-Commerce-Community-Platform-Hero-Section?utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share",
+    "githubUrl": "https://dribbble.com/shots/26207453-Social-Commerce-Community-Platform-Hero-Section?utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Co-workers Portfolio App",
+    "description": "Recent exploration design concept for Personal Portfolio site.",
+    "imageUrl": "https://cdn.dribbble.com/userupload/15994644/file/original-2aab05551e3bffce56039b62a934d85e.png?resize=1504x1128&vertical=center",
+    "technologies": [
+      "Vue.js",
+      "Python",
+      "Django",
+      "Firebase"
+    ],
+    "category": "Web Development",
+    "status": "published",
+    "liveUrl": "https://cdn.dribbble.com/userupload/15994644/file/original-2aab05551e3bffce56039b62a934d85e.png?resize=1504x1128&vertical=center",
+    "githubUrl": "https://cdn.dribbble.com/userupload/15994644/file/original-2aab05551e3bffce56039b62a934d85e.png?resize=1504x1128&vertical=center",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Job finder Mobile App",
+    "description": "Crafted with a modern aesthetic, smooth navigation, and a user-friendly experience,",
+    "imageUrl": "https://cdn.dribbble.com/userupload/42552578/file/original-8bc7ce2c1aac4c644d7e9ec9e02ccf00.png?resize=1200x900&vertical=center",
+    "technologies": [
+      "React Native",
+      "Node.js",
+      "MongoDB",
+      "JWT"
+    ],
+    "category": "Mobile Development",
+    "status": "published",
+    "liveUrl": "https://cdn.dribbble.com/userupload/42552578/file/original-8bc7ce2c1aac4c644d7e9ec9e02ccf00.png?resize=1200x900&vertical=center",
+    "githubUrl": "https://cdn.dribbble.com/userupload/42552578/file/original-8bc7ce2c1aac4c644d7e9ec9e02ccf00.png?resize=1200x900&vertical=center",
+    "featured": false
+  },
+  {
+    "id": 1751539118069,
+    "title": "Social Commerce Community Platform ",
+    "description": "A modern hero section design for a social commerce platform that connects entrepreneurs and helps them grow their business through community collaboration.",
+    "imageUrl": "https://cdn.dribbble.com/userupload/43883197/file/original-e64a7cb429e3af1d941a78ae0ce1099b.png?resize=1504x1128&vertical=center",
+    "technologies": [
+      "NextJS",
+      "Tailwind",
+      "Figma"
+    ],
+    "category": "Web Development",
+    "status": "published",
+    "liveUrl": "https://dribbble.com/shots/26207453-Social-Commerce-Community-Platform-Hero-Section?utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share",
+    "githubUrl": "https://dribbble.com/shots/26207453-Social-Commerce-Community-Platform-Hero-Section?utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=RandikaM1223&utm_content=Social%20Commerce%20Community%20Platform%20-%20Hero%20Section&utm_medium=Social_Share",
+    "featured": false
+  },
+  {
+    "id": 1751563609767,
+    "title": "Research Base AI company ",
+    "description": "Designed an intuitive and visually sleek interface",
+    "imageUrl": "https://cdn.dribbble.com/userupload/43855719/file/original-378b958e9b8c1bae9ea371e22ee9de7a.png?resize=1504x1128&vertical=center",
+    "technologies": [
+      "NextJS",
+      "Tailwind",
+      "Figma",
+      "xai"
+    ],
+    "category": "Web Development",
+    "status": "published",
+    "liveUrl": "https://cdn.dribbble.com/userupload/43855719/file/original-378b958e9b8c1bae9ea371e22ee9de7a.png?resize=1504x1128&vertical=center",
+    "githubUrl": "https://cdn.dribbble.com/userupload/43855719/file/original-378b958e9b8c1bae9ea371e22ee9de7a.png?resize=1504x1128&vertical=center",
+    "featured": false
+  }
+]

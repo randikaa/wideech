@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Wideech CMS Pro",
+    "description": "Advanced content management system with enterprise features",
+    "price": "$299/month",
+    "type": "paid",
+    "status": "active",
+    "imageUrl": "/placeholder.svg?height=200&width=300",
+    "features": ["Multi-site management", "Advanced analytics", "Custom workflows", "Priority support"],
+    "demoUrl": "#",
+    "purchaseUrl": "#",
+    "githubUrl": "",
+    "docsUrl": "",
+    "stars": 0,
+    "downloads": ""
+  },
+  {
+    "id": 2,
+    "name": "E-Commerce Suite",
+    "description": "Complete e-commerce solution with payment processing",
+    "price": "$199/month",
+    "type": "paid",
+    "status": "active",
+    "imageUrl": "/placeholder.svg?height=200&width=300",
+    "features": ["Payment gateway", "Inventory management", "Order tracking", "Mobile app"],
+    "demoUrl": "#",
+    "purchaseUrl": "#",
+    "githubUrl": "",
+    "docsUrl": "",
+    "stars": 0,
+    "downloads": ""
+  },
+  {
+    "id": 3,
+    "name": "Wideech UI Kit",
+    "description": "Modern React component library with TypeScript support",
+    "price": "Free",
+    "type": "open-source",
+    "status": "active",
+    "imageUrl": "/placeholder.svg?height=200&width=300",
+    "features": ["TypeScript support", "Dark mode", "Accessibility", "Storybook docs"],
+    "demoUrl": "",
+    "purchaseUrl": "",
+    "githubUrl": "#",
+    "docsUrl": "#",
+    "stars": 1250,
+    "downloads": "50K+"
+  }
+]
