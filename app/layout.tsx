@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Wideech - Digital Solutions & Software Development",
   description:
     "Professional software development, web design, and digital solutions. Custom applications, mobile apps, and innovative technology services by Wideech.",
-    generator: 'v0.dev'
+  icons:{
+    icon :"/favicon.ico"
+  }
 }
 
 export default function RootLayout({
