@@ -57,7 +57,7 @@ export default function Navbar() {
             <Link href="/services" className="transition-colors hover:text-primary">
               Services
             </Link>
-            <Link href="/products" className="transition-colors hover:text-primary">
+            <Link href="/#" className="transition-colors hover:text-primary">
               Products
             </Link>
           </nav>
