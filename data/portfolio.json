@@ -100,5 +100,21 @@
     "liveUrl": "https://dilushihansika.cloud/",
     "githubUrl": "https://dilushihansika.cloud/",
     "featured": false
+  },
+  {
+    "id": 1751563609901,
+    "title": "DIIS Education and Migration Business Web",
+    "description": "Sri lankan education and migration consultancy guiding students to study abroad",
+    "imageUrl": "https://cdn.dribbble.com/userupload/44109033/file/original-c6c952a0442484df3bf914ab59618c47.png?resize=1504x1128&vertical=center",
+    "technologies": [
+      "WordPress",
+      "EmailJS",
+      "FormXM"
+    ],
+    "category": "Web Development",
+    "status": "published",
+    "liveUrl": "https://diiseducation.com/",
+    "githubUrl": "https://diiseducation.com/",
+    "featured": false
   }
 ]
