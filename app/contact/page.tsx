@@ -76,11 +76,11 @@ export default function Contact() {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-primary" />
-                    <span>hello@wideech.com</span>
+                    <span><a href="mailto:hello@wideech.com">hello@wideech.com</a></span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="h-5 w-5 text-primary" />
-                    <span>+94 (74) 381-9590</span>
+                    <span><a href="tel:+94743819590">+94 (74) 381-9590</a></span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-primary" />
