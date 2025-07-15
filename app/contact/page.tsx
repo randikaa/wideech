@@ -42,7 +42,6 @@ export default function Contact() {
       budget: "",
       message: "",
     })
-
     // Reset success message after 5 seconds
     setTimeout(() => setIsSubmitted(false), 5000)
   }
@@ -50,6 +49,8 @@ export default function Contact() {
   const handleChange = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
   }
+
+  
 
   return (
     <div className="min-h-screen">

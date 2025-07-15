@@ -84,5 +84,22 @@
     "liveUrl": "https://cdn.dribbble.com/userupload/43855719/file/original-378b958e9b8c1bae9ea371e22ee9de7a.png?resize=1504x1128&vertical=center",
     "githubUrl": "https://cdn.dribbble.com/userupload/43855719/file/original-378b958e9b8c1bae9ea371e22ee9de7a.png?resize=1504x1128&vertical=center",
     "featured": false
+  },
+  {
+    "id": 1751563609900,
+    "title": "Dilushi Hansika's personal portfolio",
+    "description": "Dilushi Hansika’s personal website – a vibrant hub showcasing her acting, YouTube, and social‑media presence.",
+    "imageUrl": "https://drive.google.com/file/d/1dHTh1f-s_hF_cHNuzVa6zl9I6GDxKBcb/view",
+    "technologies": [
+      "NextJS",
+      "Tailwind",
+      "Figma",
+      "xai"
+    ],
+    "category": "Web Development",
+    "status": "published",
+    "liveUrl": "https://dilushihansika.cloud/",
+    "githubUrl": "https://dilushihansika.cloud/",
+    "featured": false
   }
 ]
