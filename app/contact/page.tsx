@@ -79,11 +79,11 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="h-5 w-5 text-primary" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+94 (74) 381-9590</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-primary" />
-                    <span>123 Business Ave, Tech City, TC 12345</span>
+                    <span>314 St.Sebestian Road Ragama</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Clock className="h-5 w-5 text-primary" />

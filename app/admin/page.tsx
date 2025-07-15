@@ -22,7 +22,7 @@ export default function AdminLogin() {
     // Simulate login
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
-    if (credentials.username === "admin" && credentials.password === "password") {
+    if (credentials.username === "admin" && credentials.password === "Wideech@2025") {
       // Redirect to dashboard
       window.location.href = "/admin/dashboard"
     } else {
@@ -77,7 +77,7 @@ export default function AdminLogin() {
               {isLoading ? "Signing in..." : "Sign In"}
             </Button>
           </form>
-          <div className="mt-4 text-xs text-muted-foreground text-center">Demo credentials: admin / password</div>
+          {/* <div className="mt-4 text-xs text-muted-foreground text-center">Demo credentials: admin / password</div> */}
         </CardContent>
       </Card>
     </div>
