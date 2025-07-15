@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Code, Zap, Users } from "lucide-react"
+import { MorphingText } from "@/components/magicui/morphing-text";
 
 export default function Hero() {
   return (
@@ -8,7 +9,7 @@ export default function Hero() {
         <h1 className="bg-gradient-to-br from-foreground from-30% via-foreground/90 to-foreground/70 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl">
           Streamline Your
           <br />
-          Digital Future
+          <MorphingText texts={["Digital Future", "Your Business"]} />
         </h1>
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 font-myfont">
           Wideech creates innovative software solutions, stunning web experiences, and powerful digital products that
