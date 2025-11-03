@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import { Calendar, Users, Award, Rocket } from "lucide-react"
+import { Calendar, Users, Award, Rocket, TrendingUp } from "lucide-react"
 
 const timelineEvents = [
   {
@@ -35,6 +35,12 @@ const timelineEvents = [
     title: "Global Reach",
     description: "Expanded operations internationally with clients across 3 continents.",
     icon: Calendar,
+  },
+  {
+    year: "2025",
+    title: "Innovation & Growth",
+    description: "Continuing to push boundaries with cutting-edge technologies and expanding our service offerings.",
+    icon: TrendingUp,
   },
 ]
 

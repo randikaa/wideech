@@ -21,6 +21,46 @@ interface Portfolio {
   featured: boolean
 }
 
+interface UpcomingProject {
+  id: number
+  title: string
+  description: string
+  imageUrl: string
+  technologies: string[]
+  category: string
+  expectedDate: string
+}
+
+const upcomingProjects: UpcomingProject[] = [
+  {
+    id: 1,
+    title: "AI-Powered Analytics Platform",
+    description: "Advanced analytics dashboard with machine learning capabilities for real-time data insights.",
+    imageUrl: "/placeholder.svg?height=300&width=400",
+    technologies: ["Python", "TensorFlow", "React", "PostgreSQL"],
+    category: "Web Development",
+    expectedDate: "Q2 2025",
+  },
+  {
+    id: 2,
+    title: "Smart Home IoT App",
+    description: "Mobile application for controlling and monitoring smart home devices with voice integration.",
+    imageUrl: "/placeholder.svg?height=300&width=400",
+    technologies: ["React Native", "Node.js", "MQTT", "AWS IoT"],
+    category: "Mobile App",
+    expectedDate: "Q3 2025",
+  },
+  {
+    id: 3,
+    title: "Blockchain Supply Chain",
+    description: "Decentralized supply chain management system using blockchain technology.",
+    imageUrl: "/placeholder.svg?height=300&width=400",
+    technologies: ["Solidity", "Ethereum", "Next.js", "Web3.js"],
+    category: "Custom Software",
+    expectedDate: "Q4 2025",
+  },
+]
+
 export default function Portfolio() {
   const [portfolio, setPortfolio] = useState<Portfolio[]>([])
   const [selectedCategory, setSelectedCategory] = useState("All")
@@ -117,6 +157,47 @@ export default function Portfolio() {
             </div>
           </section>
         )}
+
+        {/* Upcoming Projects */}
+        <section className="container py-16">
+          <h2 className="text-3xl font-bold mb-8">Upcoming Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {upcomingProjects.map((project) => (
+              <Card key={project.id} className="overflow-hidden h-full flex flex-col">
+                <div className="aspect-video bg-muted overflow-hidden relative">
+                  <img
+                    src={project.imageUrl || "/placeholder.svg"}
+                    alt={project.title}
+                    className="w-full h-full object-cover opacity-75"
+                    onError={(e) => {
+                      e.currentTarget.src = "/placeholder.svg?height=300&width=400"
+                    }}
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                    <Badge className="text-sm">Coming Soon</Badge>
+                  </div>
+                </div>
+                <CardHeader className="flex-1">
+                  <Badge variant="secondary" className="w-fit">
+                    {project.category}
+                  </Badge>
+                  <CardTitle>{project.title}</CardTitle>
+                  <CardDescription>{project.description}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-wrap gap-1 mb-4">
+                    {project.technologies.map((tech) => (
+                      <Badge key={tech} variant="outline" className="text-xs">
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
+                  <p className="text-sm text-muted-foreground">Expected: {project.expectedDate}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
 
         {/* All Projects */}
         <section className="bg-muted/50 py-16">
