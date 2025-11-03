@@ -39,7 +39,7 @@ const upcomingProjects: UpcomingProject[] = [
     imageUrl: "https://cdn.jsdelivr.net/gh/Team-Hologram/wideech/raveen.jpg",
     technologies: ["NextJS", "EMailJS", "Tailwind"],
     category: "Web Development",
-    expectedDate: "Q2 2025",
+    expectedDate: "Q4 2025",
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const upcomingProjects: UpcomingProject[] = [
     imageUrl: "/https://cdn.jsdelivr.net/gh/Team-Hologram/wideech/lota.png",
     technologies: ["NextJS", "EMailJS", "Tailwind"],
     category: "Web Development",
-    expectedDate: "Q3 2025",
+    expectedDate: "Q4 2025",
   },
 ]
 
