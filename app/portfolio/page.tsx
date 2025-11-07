@@ -41,15 +41,6 @@ const upcomingProjects: UpcomingProject[] = [
     category: "Web Development",
     expectedDate: "Q4 2025",
   },
-  {
-    id: 2,
-    title: "King Lotuss's Portfolio",
-    description: "King Lotuss's personal website – a vibrant hub showcasing his rapping and social‑media presence.",
-    imageUrl: "https://cdn.jsdelivr.net/gh/Team-Hologram/wideech/lota.png",
-    technologies: ["NextJS", "EMailJS", "Tailwind"],
-    category: "Web Development",
-    expectedDate: "Q4 2025",
-  },
 ]
 
 export default function Portfolio() {
