@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: ['ogl'],
   eslint: {
     ignoreDuringBuilds: true,
   },
